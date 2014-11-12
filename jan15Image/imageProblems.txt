@@ -14,7 +14,7 @@ for Testbed:
 -Adobe gaming SDK --> remove?
 -Illustrator
 ---what's new pane
----check on CC sign in info (does it persist across logins)
+---check on CC sign in info (persists across logins)
 -Indesign
 ---latest updates pane
 ---requires DPS udpate for Folio pane to function
@@ -27,4 +27,7 @@ for Testbed:
 -Matlab update
 -MEGA has permission issues
 -Netbeans import settings
--
+-MacTeX has Fix....2014.pkg
+-Textwrangler CLTools
+-Tokaido wants to install a helper app
+-Xcode wants developer mode enabled
