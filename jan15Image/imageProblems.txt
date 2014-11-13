@@ -21,9 +21,9 @@ for Testbed:
 -Firefox reset/long time banner
 *Garageband starts out by downloading more crap
 -iBooks check where book data goes (maybe need to refresh)
--Lockdown Browser update available
+*Lockdown Browser update available
 -Mathematica needs file to point to license server (pubkey6)
--Matlab update
+*Matlab update
 -MEGA has permission issues
 -Netbeans import settings
 -MacTeX has Fix....2014.pkg
