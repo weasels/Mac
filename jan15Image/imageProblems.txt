@@ -5,8 +5,8 @@ for Testbed:
 *--prompts to migrate settings
 *--prompts about graphics card
 -ADE check what is written when you authorize a computer
--Dreamweaver
---- (and others) new uninstall aliases need deleting
+*Dreamweaver
+*-- (and others) new uninstall aliases need deleting
 *--tour thingy on launch
 *--extract pane on launch
 *Edge Code is now "Brackets", so remove Edge Code 
@@ -18,17 +18,18 @@ for Testbed:
 -Indesign
 *--latest updates pane
 ---requires DPS udpate for Folio pane to function
--Firefox reset/long time banner
+*Firefox reset/long time banner
 *Garageband starts out by downloading more crap
 -iBooks check where book data goes (maybe need to refresh)
 *Lockdown Browser update available
 -Mathematica needs file to point to license server (pubkey6)
 *Matlab update
 -MEGA has permission issues
--Netbeans import settings
+*Netbeans import settings
 -MacTeX has Fix....2014.pkg
--Textwrangler CLTools
--Tokaido wants to install a helper app
+*Textwrangler CLTools
+*Tokaido wants to install a helper app -> removed Tokaido & put necessary files on macdev
 -Xcode wants developer mode enabled --> /usr/sbin/DevToolsSecurity -enable
 -Autocad
 -networksetup check for location existence first
+-FV2 check: still able to manage? things still work?
