@@ -1,6 +1,6 @@
 for Testbed:
 
--Acrobat Pro needs its updates (add back into build area)
+*Acrobat Pro needs its updates (add back into build area)
 *After Effects
 ---prompts about graphics card
 ---prompts about disk cache folder size
@@ -9,8 +9,8 @@ for Testbed:
 *-- (and others) new uninstall aliases need deleting
 *--tour thingy on launch
 *--extract pane on launch
--Edge Code is now "Brackets", so remove Edge Code 
--Adobe gaming SDK --> remove?
+*Edge Code is now "Brackets", so remove Edge Code 
+*Adobe gaming SDK --> remove?
 -Illustrator
 ---what's new pane
 ---check on CC sign in info (persists across logins)
@@ -18,16 +18,16 @@ for Testbed:
 *--latest updates pane
 ---requires DPS udpate for Folio pane to function
 -iBooks check where book data goes (maybe need to refresh)
--Mathematica needs file to point to license server (pubkey6)
--Matlab license checkout error
--MEGA has permission issues
+*Mathematica needs file to point to license server (pubkey6)
+*Matlab license checkout error
+*MEGA has permission issues --> remove, replace if asked for in Spring
 *Netbeans import settings
 -MacTeX has Fix....2014.pkg
 *Textwrangler CLTools
 *Tokaido wants to install a helper app -> removed Tokaido & put necessary files on macdev
--Xcode wants developer mode enabled --> /usr/sbin/DevToolsSecurity -enable
+*Xcode wants developer mode enabled --> /usr/sbin/DevToolsSecurity -enable
 -Autocad
 -networksetup check for location existence first
--FV2 check: still able to manage? things still work?
--.AppleSetupDone flag still not being written
+**FV2 check: still able to manage? things still work? --> NO
+*.AppleSetupDone flag still not being written
 -Android Studio import settings prompt
