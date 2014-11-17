@@ -30,4 +30,5 @@ for Testbed:
 -networksetup check for location existence first
 **FV2 check: still able to manage? things still work? --> NO
 *.AppleSetupDone flag still not being written
--Android Studio import settings prompt
+*Android Studio import settings prompt
+-Android SDKs and location pref setting
