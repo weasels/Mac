@@ -27,8 +27,13 @@ for Testbed:
 *Tokaido wants to install a helper app -> removed Tokaido & put necessary files on macdev
 *Xcode wants developer mode enabled --> /usr/sbin/DevToolsSecurity -enable
 -Autocad
--networksetup check for location existence first
 **FV2 check: still able to manage? things still work? --> NO
 *.AppleSetupDone flag still not being written
 *Android Studio import settings prompt
 -Android SDKs and location pref setting
+-Scripts:
+	/Library/StartupItems/refreshASUuser/refreshASUuser -> add /var/folders cleanup to startup
+	/Library/Networks/Scripts/logoutScriptLoader-refreshASUuser.sh -> remove user data saving
+	/Library/Networks/Scripts/loginScriptLoader-setupByUser.sh -> remove saved user data populating
+	/Library/Networks/Scripts/commonImage-DSpostActions-killAccts.sh -> standardize SILC (rather than lateentry)
+	/Library/Networks/Scripts/commonImage-DSpostActions-networkConfigure.sh -> Common location check, Tbolt problems
