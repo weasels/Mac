@@ -7,8 +7,6 @@ for Testbed:
 -ADE check what is written when you authorize a computer
 -Dreamweaver
 --extract pane on launch (ok?)
-*Edge Code is now "Brackets", so remove Edge Code 
-*Adobe gaming SDK --> remove
 -Illustrator
 ---what's new pane
 ---check on CC sign in info (persists across logins)
@@ -19,7 +17,7 @@ for Testbed:
 *MacTeX has Fix....2014.pkg -> add to post-actions
 -Autocad
 *.AppleSetupDone flag still not being written -> test for existence comes back as good, but not actually there
--Android java home path
+*Android java home path
 -Scripts:
 	/Library/StartupItems/refreshASUuser/refreshASUuser -> add /var/folders cleanup to startup
 	/Library/Networks/Scripts/logoutScriptLoader-refreshASUuser.sh -> remove user data saving
