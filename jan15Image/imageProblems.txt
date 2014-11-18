@@ -1,36 +1,25 @@
 for Testbed:
 
-*Acrobat Pro needs its updates (add back into build area)
-*After Effects
+-Acrobat Pro updates sometimes work, sometimes don't
+-After Effects
 ---prompts about graphics card
 ---prompts about disk cache folder size
 -ADE check what is written when you authorize a computer
-*Dreamweaver
-*-- (and others) new uninstall aliases need deleting
-*--tour thingy on launch
-*--extract pane on launch
+-Dreamweaver
+--extract pane on launch (ok?)
 *Edge Code is now "Brackets", so remove Edge Code 
-*Adobe gaming SDK --> remove?
+*Adobe gaming SDK --> remove
 -Illustrator
 ---what's new pane
 ---check on CC sign in info (persists across logins)
 -Indesign
-*--latest updates pane
+---latest updates pane
 ---requires DPS udpate for Folio pane to function
 -iBooks check where book data goes (maybe need to refresh)
-*Mathematica needs file to point to license server (pubkey6)
-*Matlab license checkout error
-*MEGA has permission issues --> remove, replace if asked for in Spring
-*Netbeans import settings
--MacTeX has Fix....2014.pkg
-*Textwrangler CLTools
-*Tokaido wants to install a helper app -> removed Tokaido & put necessary files on macdev
-*Xcode wants developer mode enabled --> /usr/sbin/DevToolsSecurity -enable
+*MacTeX has Fix....2014.pkg -> add to post-actions
 -Autocad
-**FV2 check: still able to manage? things still work? --> NO
-*.AppleSetupDone flag still not being written
-*Android Studio import settings prompt
--Android SDKs and location pref setting
+*.AppleSetupDone flag still not being written -> test for existence comes back as good, but not actually there
+-Android java home path
 -Scripts:
 	/Library/StartupItems/refreshASUuser/refreshASUuser -> add /var/folders cleanup to startup
 	/Library/Networks/Scripts/logoutScriptLoader-refreshASUuser.sh -> remove user data saving
