@@ -32,6 +32,7 @@ for Testbed:
 -Maya 2015?
 *RealPlayer Cloud
 *Labstats update (Department/ucc/Applications/labstats.pkg)
--Tweetdeck (from app store)
--Xcode 6.1.1
+*Tweetdeck (from app store)
+*Xcode 6.1.1 (app store?)
+
 		
