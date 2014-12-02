@@ -21,6 +21,8 @@ for Testbed:
 -Scripts:
 	* /Library/Networks/Scripts/commonImage-DSpostActions-killAccts.sh -> standardize SILC (rather than lateentry)
 	* /Library/Networks/Scripts/commonImage-DSpostActions-networkConfigure.sh -> Common location check, Tbolt problems
+	* /Library/Networks/Scripts/launchd-scheduler.sh 
+	* /Library/Networks/Scripts/launchd-scheduler-cleanup.sh 
 -/var/folders cleanout has some nasty side effects
 	-> missing icons
 	-> hangs
@@ -28,4 +30,7 @@ for Testbed:
 	* switch to /var/folders deletion on scheduled shutdown if what?
 		- macmini?
 		- HD size?
+-Maya 2015?
+-RealPlayer Cloud
+-Labstats update (Department/ucc/Applications/labstats.pkg)
 		
