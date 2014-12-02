@@ -1,6 +1,6 @@
 for Testbed:
 
--Acrobat Pro updates sometimes work, sometimes don't
+-Acrobat Pro updates sometimes work, sometimes don't --> function of hard drive size; prune Android studio for macbook airs, small HD
 -After Effects
 ---prompts about graphics card
 ---prompts about disk cache folder size
@@ -15,12 +15,17 @@ for Testbed:
 ---requires DPS udpate for Folio pane to function
 -iBooks check where book data goes (maybe need to refresh)
 *MacTeX has Fix....2014.pkg -> add to post-actions
--Autocad
-*.AppleSetupDone flag still not being written -> test for existence comes back as good, but not actually there
-*Android java home path
+-Autocad?
+-.AppleSetupDone flag still not being written -> test for existence comes back as good, but not actually there
+-Android java home path
 -Scripts:
-	* /Library/StartupItems/refreshASUuser/refreshASUuser -> add /var/folders cleanup to startup
-	* /Library/Networks/Scripts/logoutScriptLoader-refreshASUuser.sh -> remove user data saving
-	* /Library/Networks/Scripts/loginScriptLoader-setupByUser.sh -> remove saved user data populating
 	* /Library/Networks/Scripts/commonImage-DSpostActions-killAccts.sh -> standardize SILC (rather than lateentry)
 	* /Library/Networks/Scripts/commonImage-DSpostActions-networkConfigure.sh -> Common location check, Tbolt problems
+-/var/folders cleanout has some nasty side effects
+	-> missing icons
+	-> hangs
+	-> etc
+	* switch to /var/folders deletion on scheduled shutdown if what?
+		- macmini?
+		- HD size?
+		
