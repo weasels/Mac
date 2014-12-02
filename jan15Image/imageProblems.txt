@@ -23,14 +23,15 @@ for Testbed:
 	* /Library/Networks/Scripts/commonImage-DSpostActions-networkConfigure.sh -> Common location check, Tbolt problems
 	* /Library/Networks/Scripts/launchd-scheduler.sh 
 	* /Library/Networks/Scripts/launchd-scheduler-cleanup.sh 
--/var/folders cleanout has some nasty side effects
+*/var/folders cleanout has some nasty side effects
 	-> missing icons
 	-> hangs
 	-> etc
 	* switch to /var/folders deletion on scheduled shutdown if what?
-		- macmini?
-		- HD size?
+		- HD size & not a macbook air
 -Maya 2015?
--RealPlayer Cloud
--Labstats update (Department/ucc/Applications/labstats.pkg)
+*RealPlayer Cloud
+*Labstats update (Department/ucc/Applications/labstats.pkg)
+-Tweetdeck (from app store)
+-Xcode 6.1.1
 		
