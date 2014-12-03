@@ -34,4 +34,4 @@ for Testbed:
 *Tweetdeck (from app store)
 *Xcode 6.1.1 + CLTools
 *Ant
-		
+-modify HD size check slice 0s2 to be 200 GB, not 320		
