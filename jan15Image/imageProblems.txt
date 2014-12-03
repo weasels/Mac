@@ -35,3 +35,8 @@ for Testbed:
 *Xcode 6.1.1 + CLTools
 *Ant
 -modify HD size check slice 0s2 to be 200 GB, not 320		
+-QtSDK --> test for Mac, test for iOS
+-Livescribe Echo Desktop (replacement for Livescribe Desktop, both will work concurrently)
+-install Nodejs, and then do "sudo npm install -g phonegap", suck up the files for PhoneGap install
+-Skim
+*Nodejs v0.10.33
