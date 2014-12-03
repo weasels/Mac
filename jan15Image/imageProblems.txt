@@ -15,10 +15,9 @@ for Testbed:
 *--requires DPS udpate for Folio pane to function
 -iBooks check where book data goes (maybe need to refresh)
 *MacTeX has Fix....2014.pkg -> add to post-actions
--Autocad?
 -.AppleSetupDone flag still not being written -> test for existence comes back as good, but not actually there
--Android java home path
--Scripts:
+*Android java home path
+*Scripts:
 	* /Library/Networks/Scripts/commonImage-DSpostActions-killAccts.sh -> standardize SILC (rather than lateentry)
 	* /Library/Networks/Scripts/commonImage-DSpostActions-networkConfigure.sh -> Common location check, Tbolt problems
 	* /Library/Networks/Scripts/launchd-scheduler.sh 
