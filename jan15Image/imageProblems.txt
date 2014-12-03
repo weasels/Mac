@@ -1,6 +1,6 @@
 for Testbed:
 
--Acrobat Pro updates sometimes work, sometimes don't --> function of hard drive size; prune Android studio for macbook airs, small HD
+*Acrobat Pro updates sometimes work, sometimes don't --> function of hard drive size; prune Android studio for macbook airs, small HD
 -After Effects
 ---prompts about graphics card
 ---prompts about disk cache folder size
@@ -12,7 +12,7 @@ for Testbed:
 ---check on CC sign in info (persists across logins)
 -Indesign
 ---latest updates pane
----requires DPS udpate for Folio pane to function
+*--requires DPS udpate for Folio pane to function
 -iBooks check where book data goes (maybe need to refresh)
 *MacTeX has Fix....2014.pkg -> add to post-actions
 -Autocad?
@@ -33,6 +33,6 @@ for Testbed:
 *RealPlayer Cloud
 *Labstats update (Department/ucc/Applications/labstats.pkg)
 *Tweetdeck (from app store)
-*Xcode 6.1.1 (app store?)
-
+*Xcode 6.1.1 + CLTools
+*Ant
 		
