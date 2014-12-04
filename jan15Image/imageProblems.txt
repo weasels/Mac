@@ -33,3 +33,5 @@ for Testbed:
 -install Nodejs, and then do "sudo npm install -g phonegap", suck up the files for PhoneGap install
 *Nodejs v0.10.33
 -full app runthrough
+
+-macnms2 mod to be build server?
