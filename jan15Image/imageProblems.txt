@@ -1,6 +1,6 @@
 for Testbed:
 
-*Acrobat Pro updates sometimes work, sometimes don't --> function of hard drive size; prune Android studio for macbook airs, small HD
+-Acrobat Pro updates sometimes work, sometimes don't --> function of hard drive size; prune Android studio for macbook airs, small HD
 -After Effects
 ---prompts about graphics card
 ---prompts about disk cache folder size
@@ -12,24 +12,23 @@ for Testbed:
 ---check on CC sign in info (persists across logins)
 -Indesign
 ---latest updates pane
-*--requires DPS udpate for Folio pane to function
+---requires DPS udpate for Folio pane to function --> install failed for some reason
 -iBooks check where book data goes (maybe need to refresh)
-*MacTeX has Fix....2014.pkg -> add to post-actions
 *.AppleSetupDone flag still not being written -> test for existence comes back as good, but not actually there
-*Android java home path
+-Android studio settings, doesn't see all sdk stuff
 *Scripts:
 	* /Library/Networks/Scripts/commonImage-DSpostActions-killAccts.sh -> standardize SILC (rather than lateentry)
 	* /Library/Networks/Scripts/commonImage-DSpostActions-networkConfigure.sh -> Common location check, Tbolt problems
 	* /Library/Networks/Scripts/launchd-scheduler.sh 
 	* /Library/Networks/Scripts/launchd-scheduler-cleanup.sh 
-*RealPlayer Cloud
 *Labstats update (Department/ucc/Applications/labstats.pkg)
-*Tweetdeck (from app store)
-*Xcode 6.1.1 + CLTools
-*Ant
+*Xcode 6.1.1 + CLTools --> works, I guess?
+-Ant
+	-need to set variables reliably
 *modify HD size check slice 0s2 to be 200 GB, not 320		
 -QtSDK --> test for Mac, test for iOS
-	-Mac is ~1GB, iOS is ~5GB
+	*Mac is ~1GB, iOS is ~5GB
+	-package
 *Livescribe Echo Desktop (replacement for Livescribe Desktop, both will work concurrently)
 -install Nodejs, and then do "sudo npm install -g phonegap", suck up the files for PhoneGap install
 *Nodejs v0.10.33
