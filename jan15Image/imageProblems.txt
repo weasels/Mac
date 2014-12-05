@@ -15,7 +15,7 @@ for Testbed:
 ---requires DPS udpate for Folio pane to function --> install failed for some reason
 -iBooks check where book data goes (maybe need to refresh)
 *.AppleSetupDone flag still not being written -> test for existence comes back as good, but not actually there
--Android studio settings, doesn't see all sdk stuff
+*Android studio settings, doesn't see all sdk stuff
 *Scripts:
 	* /Library/Networks/Scripts/commonImage-DSpostActions-killAccts.sh -> standardize SILC (rather than lateentry)
 	* /Library/Networks/Scripts/commonImage-DSpostActions-networkConfigure.sh -> Common location check, Tbolt problems
@@ -23,15 +23,15 @@ for Testbed:
 	* /Library/Networks/Scripts/launchd-scheduler-cleanup.sh 
 *Labstats update (Department/ucc/Applications/labstats.pkg)
 *Xcode 6.1.1 + CLTools --> works, I guess?
--Ant
+*Ant
 	-need to set variables reliably
+	*-> /Library/LaunchDaemons/...setenv....plist
 *modify HD size check slice 0s2 to be 200 GB, not 320		
--QtSDK --> test for Mac, test for iOS
-	*Mac is ~1GB, iOS is ~5GB
-	-package
+*QtSDK --> package
 *Livescribe Echo Desktop (replacement for Livescribe Desktop, both will work concurrently)
--install Nodejs, and then do "sudo npm install -g phonegap", suck up the files for PhoneGap install
+*install Nodejs, and then do "sudo npm install -g phonegap", suck up the files for PhoneGap install
 *Nodejs v0.10.33
+-Gradle local install?
 -full app runthrough
 
 -macnms2 mod to be build server?
