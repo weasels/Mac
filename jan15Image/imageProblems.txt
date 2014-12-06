@@ -12,11 +12,14 @@ for Testbed:
 ---check on CC sign in info (persists across logins)
 -Indesign
 ---latest updates pane
----requires DPS udpate for Folio pane to function --> repackage
+*--requires DPS udpate for Folio pane to function --> repackage
 -iBooks check where book data goes (maybe need to refresh)
 -.AppleSetupDone flag still not being written -> test for existence comes back as good, but not actually there
 *Android studio settings, doesn't see all sdk stuff
--Android studio, move to regular post-install
+*Android studio, move to regular post-install
+	*-> if NOT macbook air then if eng OR site OR tech110
+	*commonImage-postActions.sh
+	*commonImageConfigure-specialSoftwareConfigure.sh
 *Scripts:
 	* /Library/Networks/Scripts/commonImage-DSpostActions-killAccts.sh -> standardize SILC (rather than lateentry)
 	* /Library/Networks/Scripts/commonImage-DSpostActions-networkConfigure.sh -> Common location check, Tbolt problems
@@ -31,7 +34,11 @@ for Testbed:
 *Livescribe Echo Desktop (replacement for Livescribe Desktop, both will work concurrently)
 *install Nodejs, and then do "sudo npm install -g phonegap", suck up the files for PhoneGap install
 *Nodejs v0.10.33
--Gradle local install?
+*Gradle local install
+	*-> package
+	*-> add to post-installs, for eng & tech110
+	*-> need Android Studio pref file(s) for gradle home and use local gradle distribution
+-Maya 2015?
 -full app runthrough
 
 -macnms2 mod to be build server?
