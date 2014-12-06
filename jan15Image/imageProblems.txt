@@ -12,19 +12,19 @@ for Testbed:
 ---check on CC sign in info (persists across logins)
 -Indesign
 ---latest updates pane
----requires DPS udpate for Folio pane to function --> install failed for some reason
+---requires DPS udpate for Folio pane to function --> repackage
 -iBooks check where book data goes (maybe need to refresh)
-*.AppleSetupDone flag still not being written -> test for existence comes back as good, but not actually there
+-.AppleSetupDone flag still not being written -> test for existence comes back as good, but not actually there
 *Android studio settings, doesn't see all sdk stuff
+-Android studio, move to regular post-install
 *Scripts:
 	* /Library/Networks/Scripts/commonImage-DSpostActions-killAccts.sh -> standardize SILC (rather than lateentry)
 	* /Library/Networks/Scripts/commonImage-DSpostActions-networkConfigure.sh -> Common location check, Tbolt problems
 	* /Library/Networks/Scripts/launchd-scheduler.sh 
 	* /Library/Networks/Scripts/launchd-scheduler-cleanup.sh 
 *Labstats update (Department/ucc/Applications/labstats.pkg)
-*Xcode 6.1.1 + CLTools --> works, I guess?
 *Ant
-	-need to set variables reliably
+	*need to set variables reliably
 	*-> /Library/LaunchDaemons/...setenv....plist
 *modify HD size check slice 0s2 to be 200 GB, not 320		
 *QtSDK --> package
