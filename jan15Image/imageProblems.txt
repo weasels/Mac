@@ -10,11 +10,11 @@ for Testbed:
 -Illustrator
 ---what's new pane
 ---check on CC sign in info (persists across logins)
--Indesign
+*Indesign
 ---latest updates pane
-*--requires DPS udpate for Folio pane to function --> repackage
+***requires DPS udpate for Folio pane to function --> repackage
 -iBooks check where book data goes (maybe need to refresh)
--.AppleSetupDone flag still not being written -> test for existence comes back as good, but not actually there
+*.AppleSetupDone flag still not being written -> test for existence comes back as good, but not actually there
 *Android studio settings, doesn't see all sdk stuff
 *Android studio, move to regular post-install
 	*-> if NOT macbook air then if eng OR site OR tech110
@@ -29,6 +29,7 @@ for Testbed:
 *Ant
 	*need to set variables reliably
 	*-> /Library/LaunchDaemons/...setenv....plist
+	*/etc/profile
 *modify HD size check slice 0s2 to be 200 GB, not 320		
 *QtSDK --> package
 *Livescribe Echo Desktop (replacement for Livescribe Desktop, both will work concurrently)
