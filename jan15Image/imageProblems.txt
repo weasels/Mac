@@ -13,23 +13,12 @@ for Testbed:
 	* /Library/Networks/Scripts/commonImage-DSpostActions-networkConfigure.sh -> Common location check, Tbolt problems
 	* /Library/Networks/Scripts/launchd-scheduler.sh 
 	* /Library/Networks/Scripts/launchd-scheduler-cleanup.sh 
-*Labstats update (Department/ucc/Applications/labstats.pkg)
 *modify HD size check slice 0s2 to be 200 GB, not 320		
-*QtSDK --> package
-*install Nodejs, and then do "sudo npm install -g phonegap", suck up the files for PhoneGap install --> repackage
 -full app runthrough
-*Stuffit expander prompt about registration
 -all special configs run through:
-	[X]drc
-	-eng
-		-check M1-11 accessibility stuff
-	-aecp
-	[X]edu
-	-git
-		-desktop background change (needs .db file)
-	-sda
-	silc
-	-anything from poly (qtsdk)
-
+	-silc
+*post204 (a01/2)
+	*printer setup --> 10.16.1.39, Canon ir3225
+*update account pws
 
 -macnms2 mod to be build server?
