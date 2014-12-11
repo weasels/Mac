@@ -1,6 +1,6 @@
 for Testbed:
 
-*Acrobat Reader ...10 update
+*Acrobat Reader ...10 update -> add to post-install script!
 -ADE check what is written when you authorize a computer
 -Illustrator
 ---check on CC sign in info (persists across logins)
@@ -19,21 +19,20 @@ for Testbed:
 *modify HD size check slice 0s2 to be 200 GB, not 320		
 *QtSDK --> package
 *install Nodejs, and then do "sudo npm install -g phonegap", suck up the files for PhoneGap install --> repackage
-*Maya 2015
-	* asks about preferences
 -full app runthrough
 *Stuffit expander prompt about registration
 -all special configs run through:
 	[X]drc
-	eng
+	-eng
 		-repackage phonegap
 		-check M1-11 accessibility stuff
-	aecp
-	edu
-	git
-	sda
+	-aecp
+	[X]edu
+	-git
+		-desktop background change (needs .db file)
+	-sda
 	silc
-	
+	-anything from poly (qtsdk)
 
 
 -macnms2 mod to be build server?
