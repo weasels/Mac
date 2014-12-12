@@ -6,9 +6,8 @@ for Testbed:
 -iBooks check where book data goes (maybe need to refresh)
 -.AppleSetupDone flag still not being written -> test for existence comes back as good, but not actually there
 *Scripts:
-	* /Library/Networks/Scripts/commonImage-DSpostActions-killAccts.sh -> standardize SILC (rather than lateentry)
-	* /Library/Networks/Scripts/commonImage-DSpostActions-networkConfigure.sh -> Common location check, Tbolt problems
-	* /Library/Networks/Scripts/launchd-scheduler.sh 
+	- /Library/Networks/Scripts/commonImage-DSpostActions-networkConfigure.sh -> Common location check, Tbolt problems
+		--> add in sleep 5 for after getairportpower
 	* /Library/Networks/Scripts/launchd-scheduler-cleanup.sh 
 *modify HD size check slice 0s2 to be 200 GB, not 320		
 -full app runthrough
