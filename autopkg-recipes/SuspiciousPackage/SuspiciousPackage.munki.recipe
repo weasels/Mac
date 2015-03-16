@@ -5,7 +5,7 @@
   <key>Description</key>
     <string>Downloads latest Suspicious Package package and imports into Munki.</string>
   <key>Identifier</key>
-    <string>com.github.autopkg.munki.suspiciouspackage</string>
+    <string>com.github.weasels.munki.suspiciouspackage</string>
   <key>Input</key>
   <dict>
     <key>NAME</key>
