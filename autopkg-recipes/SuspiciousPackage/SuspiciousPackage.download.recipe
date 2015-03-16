@@ -5,7 +5,7 @@
   <key>Description</key>
     <string>Downloads the current release version of Suspicious Package</string>
   <key>Identifier</key>
-    <string>com.github.autopkg.download.suspiciouspackage</string>
+    <string>com.github.weasels.download.suspiciouspackage</string>
   <key>Input</key>
     <dict>
       <key>NAME</key>
